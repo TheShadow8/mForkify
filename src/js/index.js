@@ -1,11 +1,15 @@
 // Global app controller
+// Search object
+// Current recipe object
+// Shopping list object
+// Linked recipes
+
 import Search from './models/Search';
 
 const state = {};
 
 const controlSearch = async () => {
   // 1) Get query from view
-
   const query = 'pizza';
 
   if (query) {
